@@ -1,0 +1,13 @@
+typings/
+.idea/
+.arcconfig
+
+.vscode/
+buck-out/
+
+.watchmanconfig
+.buckconfig
+
+/examples
+docs
+__tests__

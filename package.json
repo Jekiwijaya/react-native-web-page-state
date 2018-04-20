@@ -1,0 +1,53 @@
+{
+  "name": "react-native-web-page-state",
+  "version": "1.0.0",
+  "description": "React Native Web Loading Handler",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Jekiwijaya/react-native-web-page-state"
+  },
+  "keywords": [
+    "react-native-web",
+    "loading",
+    "error",
+    "handler",
+    "retry",
+    "react",
+    "react-native"
+  ],
+  "author": "Jacky Wijaya <jekiwijaya@hotmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Jekiwijaya/react-native-web-page-state/issues"
+  },
+  "peerDependencies": {
+    "react": "*",
+    "react-native": "*"
+  },
+  "homepage": "https://github.com/Jekiwijaya/react-native-web-page-state#readme",
+  "devDependencies": {
+    "babel-jest": "^22.4.3",
+    "babel-preset-react-native": "^4.0.0",
+    "jest": "^22.4.3",
+    "jest-cli": "^22.4.3",
+    "react": "^16.2.0",
+    "react-native": "^0.54.4",
+    "react-test-renderer": "^16.3.2"
+  },
+  "jest": {
+    "notify": true,
+    "preset": "react-native",
+    "modulePathIgnorePatterns": [
+      "<rootDir>/examples"
+    ]
+  },
+  "dependencies": {
+    "babel-polyfill": "^6.26.0",
+    "babel-preset-react-native-stage-0": "^1.0.1",
+    "lodash": "^4.17.5"
+  }
+}
